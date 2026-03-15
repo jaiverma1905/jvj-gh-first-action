@@ -3,8 +3,11 @@ on: workflow_dispatch
 jobs:
   first-job:
     runs-on: ubuntu-latest
-		steps:
-			- name: Print Hello
-				run: echo "Hello World!!"
-			- name: Print Bye
-				run: echo "Done - Goodbye!"
+    steps:
+      - name: Print Hello
+        run: echo "Good Morning"
+      - name: Print Bye
+        run: echo "Good Bye!!!"
+    
+    
+	
